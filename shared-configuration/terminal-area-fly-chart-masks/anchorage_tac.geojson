@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "anchorage_tac",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "anchorage_tac" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -151.805084099999988, 60.56253558545508 ], [ -151.852955762410602, 61.666576095361215 ], [ -148.299875244042909, 61.65575462809938 ], [ -148.366798492814439, 60.551704929095763 ], [ -151.805056153768334, 60.56252235875575 ], [ -151.805084099999988, 60.56253558545508 ] ] ] ] } }
+]
+}

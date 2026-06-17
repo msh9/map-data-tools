@@ -1,0 +1,31 @@
+[project]
+name = "faa-raster-chart-preprocess"
+version = "0.1.0"
+description = "FAA sectional/TAC/FLY chart COG preparation utility for flyer-maps"
+readme = "README.md"
+authors = [
+    { name = "Michael Hughes", email = "<work@mihughes.com>" },
+]
+requires-python = ">=3.12,<3.15"
+dependencies = []
+
+[project.scripts]
+faa-raster-chart-preprocess = "faa_raster_chart_preprocess.cli:main"
+
+[tool.poetry]
+packages = [{ include = "faa_raster_chart_preprocess", from = "src" }]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0.0"
+ruff = "^0.15.0"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

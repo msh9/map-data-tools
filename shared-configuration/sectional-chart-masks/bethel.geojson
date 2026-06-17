@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Bethel",
+    "source_fields": {
+      "SW Corner Northing": "59°35'N",
+      "NW Corner Northing": "64°10'N",
+      "SE Corner Northing": "59°33'N",
+      "NE Corner Northing": "64°06'N",
+      "SW Corner Westing": "173°00'W",
+      "NW Corner Westing": "173°00'W",
+      "SE Corner Westing": "161°20'W",
+      "NE Corner Westing": "160°20'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -173.0,
+        "latitude": 59.583333333333336
+      },
+      "NW": {
+        "longitude": -173.0,
+        "latitude": 64.16666666666667
+      },
+      "SE": {
+        "longitude": -161.33333333333334,
+        "latitude": 59.55
+      },
+      "NE": {
+        "longitude": -160.33333333333334,
+        "latitude": 64.1
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -161.3333333333,
+          59.55
+        ],
+        [
+          -160.3333333333,
+          64.1
+        ],
+        [
+          -173.0,
+          64.1666666667
+        ],
+        [
+          -173.0,
+          59.5833333333
+        ],
+        [
+          -161.3333333333,
+          59.55
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+    "type": "FeatureCollection",
+    "name": "Colorado_Springs_TAC",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Colorado_Springs_TAC"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -105.516584130713539,
+                            39.266476482049711
+                        ],
+                        [
+                            -103.484300961360177,
+                            39.266263922460041
+                        ],
+                        [
+                            -103.48422512458842,
+                            37.800247196311886
+                        ],
+                        [
+                            -105.516222548128198,
+                            37.800243224705689
+                        ],
+                        [
+                            -105.516584130713539,
+                            39.266476482049711
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Miami",
+    "source_fields": {
+      "SW Corner Northing": "24°00'N",
+      "NW Corner Northing": "28°07'N",
+      "SE Corner Northing": "24°00'N",
+      "NE Corner Northing": "28°06'N",
+      "SW Corner Westing": "83°00'W",
+      "NW Corner Westing": "83°00'W",
+      "SE Corner Westing": "76°40'W",
+      "NE Corner Westing": "76°32'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -83.0,
+        "latitude": 24.0
+      },
+      "NW": {
+        "longitude": -83.0,
+        "latitude": 28.116666666666667
+      },
+      "SE": {
+        "longitude": -76.66666666666667,
+        "latitude": 24.0
+      },
+      "NE": {
+        "longitude": -76.53333333333333,
+        "latitude": 28.1
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -76.6666666667,
+          24.0
+        ],
+        [
+          -76.5333333333,
+          28.1
+        ],
+        [
+          -83.0,
+          28.1166666667
+        ],
+        [
+          -83.0,
+          24.0
+        ],
+        [
+          -76.6666666667,
+          24.0
+        ]
+      ]
+    ]
+  }
+}

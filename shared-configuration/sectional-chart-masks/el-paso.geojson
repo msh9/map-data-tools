@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "El Paso",
+    "source_fields": {
+      "SW Corner Northing": "28°00'N",
+      "NW Corner Northing": "32°13'N",
+      "SE Corner Northing": "28°00'N",
+      "NE Corner Northing": "32°12'N",
+      "SW Corner Westing": "109°00'W",
+      "NW Corner Westing": "109°00'W",
+      "SE Corner Westing": "102°36'W",
+      "NE Corner Westing": "102°28'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -109.0,
+        "latitude": 28.0
+      },
+      "NW": {
+        "longitude": -109.0,
+        "latitude": 32.21666666666667
+      },
+      "SE": {
+        "longitude": -102.6,
+        "latitude": 28.0
+      },
+      "NE": {
+        "longitude": -102.46666666666667,
+        "latitude": 32.2
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -102.6,
+          28.0
+        ],
+        [
+          -102.4666666667,
+          32.2
+        ],
+        [
+          -109.0,
+          32.2166666667
+        ],
+        [
+          -109.0,
+          28.0
+        ],
+        [
+          -102.6,
+          28.0
+        ]
+      ]
+    ]
+  }
+}

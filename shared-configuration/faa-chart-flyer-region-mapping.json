@@ -1,0 +1,155 @@
+{
+    "sectional": {
+        "alaska": [
+            "cape_lisburne",
+            "point_barrow",
+            "nome",
+            "fairbanks",
+            "dawson",
+            "bethel",
+            "mcgrath",
+            "anchorage",
+            "seward",
+            "kodiak",
+            "juneau",
+            "western_aleutian_islands",
+            "dutch harbor",
+            "ketchikan"
+        ],
+        "pacific": [
+            "hawaiian_islands"
+        ],
+        "west": [
+            "seattle",
+            "klamath_falls",
+            "san_francisco",
+            "los_angeles",
+            "great_falls",
+            "salt_lake_city",
+            "las_vegas",
+            "phoenix"
+        ],
+        "mountain": [
+            "billings",
+            "cheyenne",
+            "denver",
+            "albuquerque",
+            "el_paso",
+            "wichita"
+        ],
+        "central": [
+            "twin_cities",
+            "omaha",
+            "kansas_city",
+            "dallas-ft_worth",
+            "san_antonio",
+            "brownsville",
+            "green_bay",
+            "chicago",
+            "st_louis",
+            "memphis",
+            "houston"
+        ],
+        "north_east": [
+            "lake_huron",
+            "detroit",
+            "montreal",
+            "new_york",
+            "halifax",
+            "washington"
+        ],
+        "south_east": [
+            "cincinnati",
+            "atlanta",
+            "new_orleans",
+            "charlotte",
+            "jacksonville",
+            "miami"
+        ],
+        "conus": [
+            "seattle",
+            "klamath_falls",
+            "san_francisco",
+            "los_angeles",
+            "great_falls",
+            "salt_lake_city",
+            "las_vegas",
+            "phoenix",
+            "billings",
+            "cheyenne",
+            "denver",
+            "albuquerque",
+            "el_paso",
+            "wichita",
+            "twin_cities",
+            "omaha",
+            "kansas_city",
+            "dallas-ft_worth",
+            "san_antonio",
+            "brownsville",
+            "green_bay",
+            "chicago",
+            "st_louis",
+            "memphis",
+            "houston",
+            "lake_huron",
+            "detroit",
+            "montreal",
+            "new_york",
+            "halifax",
+            "washington",
+            "cincinnati",
+            "atlanta",
+            "new_orleans",
+            "charlotte",
+            "jacksonville",
+            "miami"
+        ],
+        "caribbean": [
+            "caribbean_1",
+            "caribbean_2"
+        ]
+    },
+    "terminal_area": {
+        "caribbean": [
+            "miami",
+            "san_juan"
+        ],
+        "alaska": [
+            "fairbanks",
+            "anchorage"
+        ],
+        "conus": [
+            "seattle",
+            "portland",
+            "san_francisco",
+            "los_angeles",
+            "san_diego",
+            "salt_lake_city",
+            "las_vegas",
+            "denver",
+            "colorado_springs",
+            "minneapolis-st_paul",
+            "kansas_city",
+            "dallas-fort_worth",
+            "chicago",
+            "memphis",
+            "houston",
+            "st_louis",
+            "detroit",
+            "cleveland",
+            "pittsburgh",
+            "cincinnati",
+            "atlanta",
+            "new_orleans",
+            "boston",
+            "new_york",
+            "philadelphia",
+            "baltimore-washington",
+            "charlotte",
+            "orlando",
+            "tampa",
+            "miami"
+        ]
+    }
+}

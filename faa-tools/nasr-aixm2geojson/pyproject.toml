@@ -1,0 +1,34 @@
+[project]
+name = "nasr-aixm2geojson"
+version = "0.1.0"
+description = "FAA NASR AIXM to GeoJSON conversion utility for flyer maps"
+readme = "README.md"
+authors = [
+    { name = "Michael Hughes", email = "<work@mihughes.com>" },
+]
+requires-python = ">=3.12,<3.15"
+dependencies = ["tilemaker-shared"]
+
+[project.scripts]
+nasr-aixm2geojson = "nasr_aixm2geojson.cli:main"
+
+[tool.poetry]
+packages = [{ include = "nasr_aixm2geojson", from = "src" }]
+
+[tool.poetry.dependencies]
+tilemaker-shared = {path = "../../tilemaker-shared", develop = true}
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0.0"
+ruff = "^0.15.0"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Twin Cities",
+    "source_fields": {
+      "SW Corner Northing": "44°26'N",
+      "NW Corner Northing": "49°01'N",
+      "SE Corner Northing": "44°25'N",
+      "NE Corner Northing": "48°59'N",
+      "SW Corner Westing": "101°00'W",
+      "NW Corner Westing": "101°00'W",
+      "SE Corner Westing": "92°39'W",
+      "NE Corner Westing": "92°17'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -101.0,
+        "latitude": 44.43333333333333
+      },
+      "NW": {
+        "longitude": -101.0,
+        "latitude": 49.016666666666666
+      },
+      "SE": {
+        "longitude": -92.65,
+        "latitude": 44.416666666666664
+      },
+      "NE": {
+        "longitude": -92.28333333333333,
+        "latitude": 48.983333333333334
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -92.65,
+          44.4166666667
+        ],
+        [
+          -92.2833333333,
+          48.9833333333
+        ],
+        [
+          -101.0,
+          49.0166666667
+        ],
+        [
+          -101.0,
+          44.4333333333
+        ],
+        [
+          -92.65,
+          44.4166666667
+        ]
+      ]
+    ]
+  }
+}

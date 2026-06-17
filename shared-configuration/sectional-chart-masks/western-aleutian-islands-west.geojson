@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Western Aleutian Islands (West)",
+    "source_fields": {
+      "SW Corner Northing": "51°00'N",
+      "NW Corner Northing": "53°08'N",
+      "SE Corner Northing": "51°00'N",
+      "NE Corner Northing": "53°06'N",
+      "SW Corner Westing": "169°20'E",
+      "NW Corner Westing": "169°10'E",
+      "SE Corner Westing": "178°24'E",
+      "NE Corner Westing": "178°37'E"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": 169.33333333333334,
+        "latitude": 51.0
+      },
+      "NW": {
+        "longitude": 169.16666666666666,
+        "latitude": 53.13333333333333
+      },
+      "SE": {
+        "longitude": 178.4,
+        "latitude": 51.0
+      },
+      "NE": {
+        "longitude": 178.61666666666667,
+        "latitude": 53.1
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          178.4,
+          51.0
+        ],
+        [
+          178.6166666667,
+          53.1
+        ],
+        [
+          169.1666666667,
+          53.1333333333
+        ],
+        [
+          169.3333333333,
+          51.0
+        ],
+        [
+          178.4,
+          51.0
+        ]
+      ]
+    ]
+  }
+}

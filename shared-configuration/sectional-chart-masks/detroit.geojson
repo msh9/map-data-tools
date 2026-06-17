@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Detroit",
+    "source_fields": {
+      "SW Corner Northing": "40°00'N",
+      "NW Corner Northing": "44°13'N",
+      "SE Corner Northing": "40°00'N",
+      "NE Corner Northing": "44°12'N",
+      "SW Corner Westing": "85°00'W",
+      "NW Corner Westing": "85°00'W",
+      "SE Corner Westing": "76°57'W",
+      "NE Corner Westing": "76°40'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -85.0,
+        "latitude": 40.0
+      },
+      "NW": {
+        "longitude": -85.0,
+        "latitude": 44.21666666666667
+      },
+      "SE": {
+        "longitude": -76.95,
+        "latitude": 40.0
+      },
+      "NE": {
+        "longitude": -76.66666666666667,
+        "latitude": 44.2
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -76.95,
+          40.0
+        ],
+        [
+          -76.6666666667,
+          44.2
+        ],
+        [
+          -85.0,
+          44.2166666667
+        ],
+        [
+          -85.0,
+          40.0
+        ],
+        [
+          -76.95,
+          40.0
+        ]
+      ]
+    ]
+  }
+}

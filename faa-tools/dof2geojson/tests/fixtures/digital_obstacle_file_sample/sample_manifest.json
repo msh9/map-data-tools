@@ -1,0 +1,67 @@
+{
+  "records": [
+    {
+      "record_prefix": "08-021478",
+      "source_file": "08-CO.Dat",
+      "source_line_number": 2072,
+      "state": "CO"
+    },
+    {
+      "record_prefix": "08-078052",
+      "source_file": "08-CO.Dat",
+      "source_line_number": 3868,
+      "state": "CO"
+    },
+    {
+      "record_prefix": "08-077479",
+      "source_file": "08-CO.Dat",
+      "source_line_number": 4407,
+      "state": "CO"
+    },
+    {
+      "record_prefix": "08-021692",
+      "source_file": "08-CO.Dat",
+      "source_line_number": 8363,
+      "state": "CO"
+    },
+    {
+      "record_prefix": "16-021564",
+      "source_file": "16-ID.Dat",
+      "source_line_number": 3689,
+      "state": "ID"
+    },
+    {
+      "record_prefix": "32-085285",
+      "source_file": "32-NV.Dat",
+      "source_line_number": 511,
+      "state": "NV"
+    },
+    {
+      "record_prefix": "32-102864",
+      "source_file": "32-NV.Dat",
+      "source_line_number": 1271,
+      "state": "NV"
+    },
+    {
+      "record_prefix": "32-020909",
+      "source_file": "32-NV.Dat",
+      "source_line_number": 3688,
+      "state": "NV"
+    },
+    {
+      "record_prefix": "49-056945",
+      "source_file": "49-UT.Dat",
+      "source_line_number": 3759,
+      "state": "UT"
+    },
+    {
+      "record_prefix": "49-021304",
+      "source_file": "49-UT.Dat",
+      "source_line_number": 3851,
+      "state": "UT"
+    }
+  ],
+  "sample_size": 10,
+  "seed": 1,
+  "source_directory": "raster-tilemaker/data/raw/Digital_Obstacle_File"
+}

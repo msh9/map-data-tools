@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Cape Lisburne",
+    "source_fields": {
+      "SW Corner Northing": "68°00'N",
+      "NW Corner Northing": "72°10'N",
+      "SE Corner Northing": "68°00'N",
+      "NE Corner Northing": "72°03'N",
+      "SW Corner Westing": "171°30'W",
+      "NW Corner Westing": "171°30'W",
+      "SE Corner Westing": "156°43'W",
+      "NE Corner Westing": "155°00'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -171.5,
+        "latitude": 68.0
+      },
+      "NW": {
+        "longitude": -171.5,
+        "latitude": 72.16666666666667
+      },
+      "SE": {
+        "longitude": -156.71666666666667,
+        "latitude": 68.0
+      },
+      "NE": {
+        "longitude": -155.0,
+        "latitude": 72.05
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -156.7166666667,
+          68.0
+        ],
+        [
+          -155.0,
+          72.05
+        ],
+        [
+          -171.5,
+          72.1666666667
+        ],
+        [
+          -171.5,
+          68.0
+        ],
+        [
+          -156.7166666667,
+          68.0
+        ]
+      ]
+    ]
+  }
+}

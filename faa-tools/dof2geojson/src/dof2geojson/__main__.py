@@ -1,0 +1,9 @@
+"""Module execution for dof2geojson."""
+
+from __future__ import annotations
+
+from dof2geojson.cli import main
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

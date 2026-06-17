@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Brownsville",
+    "source_fields": {
+      "SW Corner Northing": "24°00'N",
+      "NW Corner Northing": "28°13'N",
+      "SE Corner Northing": "24°00'N",
+      "NE Corner Northing": "28°12'N",
+      "SW Corner Westing": "103°00'W",
+      "NW Corner Westing": "103°00'W",
+      "SE Corner Westing": "96°44'W",
+      "NE Corner Westing": "96°36'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -103.0,
+        "latitude": 24.0
+      },
+      "NW": {
+        "longitude": -103.0,
+        "latitude": 28.216666666666665
+      },
+      "SE": {
+        "longitude": -96.73333333333333,
+        "latitude": 24.0
+      },
+      "NE": {
+        "longitude": -96.6,
+        "latitude": 28.2
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -96.7333333333,
+          24.0
+        ],
+        [
+          -96.6,
+          28.2
+        ],
+        [
+          -103.0,
+          28.2166666667
+        ],
+        [
+          -103.0,
+          24.0
+        ],
+        [
+          -96.7333333333,
+          24.0
+        ]
+      ]
+    ]
+  }
+}

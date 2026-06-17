@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "St. Louis",
+    "source_fields": {
+      "SW Corner Northing": "36°00'N",
+      "NW Corner Northing": "40°13'N",
+      "SE Corner Northing": "36°00'N",
+      "NE Corner Northing": "40°12'N",
+      "SW Corner Westing": "91°00'W",
+      "NW Corner Westing": "91°00'W",
+      "SE Corner Westing": "83°57'W",
+      "NE Corner Westing": "83°45'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -91.0,
+        "latitude": 36.0
+      },
+      "NW": {
+        "longitude": -91.0,
+        "latitude": 40.21666666666667
+      },
+      "SE": {
+        "longitude": -83.95,
+        "latitude": 36.0
+      },
+      "NE": {
+        "longitude": -83.75,
+        "latitude": 40.2
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -83.95,
+          36.0
+        ],
+        [
+          -83.75,
+          40.2
+        ],
+        [
+          -91.0,
+          40.2166666667
+        ],
+        [
+          -91.0,
+          36.0
+        ],
+        [
+          -83.95,
+          36.0
+        ]
+      ]
+    ]
+  }
+}

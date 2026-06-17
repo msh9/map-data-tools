@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Dallas - Ft. Worth",
+    "source_fields": {
+      "SW Corner Northing": "32°00'N",
+      "NW Corner Northing": "36°13'N",
+      "SE Corner Northing": "32°00'N",
+      "NE Corner Northing": "36°12'N",
+      "SW Corner Westing": "102°00'W",
+      "NW Corner Westing": "102°00'W",
+      "SE Corner Westing": "94°59'W",
+      "NE Corner Westing": "94°47'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -102.0,
+        "latitude": 32.0
+      },
+      "NW": {
+        "longitude": -102.0,
+        "latitude": 36.21666666666667
+      },
+      "SE": {
+        "longitude": -94.98333333333333,
+        "latitude": 32.0
+      },
+      "NE": {
+        "longitude": -94.78333333333333,
+        "latitude": 36.2
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -94.9833333333,
+          32.0
+        ],
+        [
+          -94.7833333333,
+          36.2
+        ],
+        [
+          -102.0,
+          36.2166666667
+        ],
+        [
+          -102.0,
+          32.0
+        ],
+        [
+          -94.9833333333,
+          32.0
+        ]
+      ]
+    ]
+  }
+}

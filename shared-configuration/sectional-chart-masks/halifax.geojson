@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Halifax",
+    "source_fields": {
+      "SW Corner Northing": "44°00'N",
+      "NW Corner Northing": "48°13'N",
+      "SE Corner Northing": "44°00'N",
+      "NE Corner Northing": "48°12'N",
+      "SW Corner Westing": "69°00'W",
+      "NW Corner Westing": "69°00'W",
+      "SE Corner Westing": "60°57'W",
+      "NE Corner Westing": "60°39'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -69.0,
+        "latitude": 44.0
+      },
+      "NW": {
+        "longitude": -69.0,
+        "latitude": 48.21666666666667
+      },
+      "SE": {
+        "longitude": -60.95,
+        "latitude": 44.0
+      },
+      "NE": {
+        "longitude": -60.65,
+        "latitude": 48.2
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -60.95,
+          44.0
+        ],
+        [
+          -60.65,
+          48.2
+        ],
+        [
+          -69.0,
+          48.2166666667
+        ],
+        [
+          -69.0,
+          44.0
+        ],
+        [
+          -60.95,
+          44.0
+        ]
+      ]
+    ]
+  }
+}

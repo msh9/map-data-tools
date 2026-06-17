@@ -1,0 +1,48 @@
+{
+  "tippecanoe": {
+    "repo": "https://github.com/felt/tippecanoe.git",
+    "version": "2.79.0",
+    "binaries": [
+      "tippecanoe",
+      "tile-join",
+      "tippecanoe-decode",
+      "tippecanoe-enumerate"
+    ]
+  },
+  "pmtiles": {
+    "repo": "https://github.com/protomaps/go-pmtiles",
+    "version": "1.30.0",
+    "assets": {
+      "linux_x86_64": {
+        "url": "https://github.com/protomaps/go-pmtiles/releases/download/v1.30.0/go-pmtiles_1.30.0_Linux_x86_64.tar.gz",
+        "sha256": "429dfa99b6f76fa116b2299a9466bb3811d59aaf1c36c216a41829a2696bee3b",
+        "binary": "pmtiles"
+      },
+      "linux_arm64": {
+        "url": "https://github.com/protomaps/go-pmtiles/releases/download/v1.30.0/go-pmtiles_1.30.0_Linux_arm64.tar.gz",
+        "sha256": "761847b7627dc5a97a1741b2a95867fe4d48af74a4d29adfd203d50d8bdc5fe7",
+        "binary": "pmtiles"
+      },
+      "darwin_x86_64": {
+        "url": "https://github.com/protomaps/go-pmtiles/releases/download/v1.30.0/go-pmtiles-1.30.0_Darwin_x86_64.zip",
+        "sha256": "0f85a0fa14cf09c7a3928fd876188b8587795314b3a9189b1611d05c82016c13",
+        "binary": "pmtiles"
+      },
+      "darwin_arm64": {
+        "url": "https://github.com/protomaps/go-pmtiles/releases/download/v1.30.0/go-pmtiles-1.30.0_Darwin_arm64.zip",
+        "sha256": "2086c489cc235e6d8b595c45bb29cdacc2e6153349a60a38cc1df66a466dad36",
+        "binary": "pmtiles"
+      },
+      "windows_x86_64": {
+        "url": "https://github.com/protomaps/go-pmtiles/releases/download/v1.30.0/go-pmtiles_1.30.0_Windows_x86_64.zip",
+        "sha256": "8a983059b1e7a24f6930f677f5b7aa6d01e125eb2e15cb0f34bd11247e82df35",
+        "binary": "pmtiles.exe"
+      },
+      "windows_arm64": {
+        "url": "https://github.com/protomaps/go-pmtiles/releases/download/v1.30.0/go-pmtiles_1.30.0_Windows_arm64.zip",
+        "sha256": "6a1384205cb3cf33eebd1a78445f4ecebb98fad33c8dca42d7c4205e791110ff",
+        "binary": "pmtiles.exe"
+      }
+    }
+  }
+}

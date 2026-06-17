@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Seward",
+    "source_fields": {
+      "SW Corner Northing": "59°07'N",
+      "NW Corner Northing": "61°28'N",
+      "SE Corner Northing": "59°07'N",
+      "NE Corner Northing": "61°25'N",
+      "SW Corner Westing": "152°30'W",
+      "NW Corner Westing": "152°30'W",
+      "SE Corner Westing": "140°28'W",
+      "NE Corner Westing": "140°00'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -152.5,
+        "latitude": 59.11666666666667
+      },
+      "NW": {
+        "longitude": -152.5,
+        "latitude": 61.46666666666667
+      },
+      "SE": {
+        "longitude": -140.46666666666667,
+        "latitude": 59.11666666666667
+      },
+      "NE": {
+        "longitude": -140.0,
+        "latitude": 61.416666666666664
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -140.4666666667,
+          59.1166666667
+        ],
+        [
+          -140.0,
+          61.4166666667
+        ],
+        [
+          -152.5,
+          61.4666666667
+        ],
+        [
+          -152.5,
+          59.1166666667
+        ],
+        [
+          -140.4666666667,
+          59.1166666667
+        ]
+      ]
+    ]
+  }
+}

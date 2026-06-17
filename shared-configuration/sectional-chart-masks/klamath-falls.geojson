@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Klamath Falls",
+    "source_fields": {
+      "SW Corner Northing": "40°00'N",
+      "NW Corner Northing": "44°31'N",
+      "SE Corner Northing": "40°00'N",
+      "NE Corner Northing": "44°30’N",
+      "SW Corner Westing": "125°00'W",
+      "NW Corner Westing": "125°00'W",
+      "SE Corner Westing": "116°57'W",
+      "NE Corner Westing": "116°39'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -125.0,
+        "latitude": 40.0
+      },
+      "NW": {
+        "longitude": -125.0,
+        "latitude": 44.516666666666666
+      },
+      "SE": {
+        "longitude": -116.95,
+        "latitude": 40.0
+      },
+      "NE": {
+        "longitude": -116.65,
+        "latitude": 44.5
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -116.95,
+          40.0
+        ],
+        [
+          -116.65,
+          44.5
+        ],
+        [
+          -125.0,
+          44.5166666667
+        ],
+        [
+          -125.0,
+          40.0
+        ],
+        [
+          -116.95,
+          40.0
+        ]
+      ]
+    ]
+  }
+}

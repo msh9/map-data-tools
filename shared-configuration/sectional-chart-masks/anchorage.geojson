@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Anchorage",
+    "source_fields": {
+      "SW Corner Northing": "60°00'N",
+      "NW Corner Northing": "64°10'N",
+      "SE Corner Northing": "60°00'N",
+      "NE Corner Northing": "64°06'N",
+      "SW Corner Westing": "151°30'W",
+      "NW Corner Westing": "151°30'W",
+      "SE Corner Westing": "140°16'W",
+      "NE Corner Westing": "139°24'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -151.5,
+        "latitude": 60.0
+      },
+      "NW": {
+        "longitude": -151.5,
+        "latitude": 64.16666666666667
+      },
+      "SE": {
+        "longitude": -140.26666666666668,
+        "latitude": 60.0
+      },
+      "NE": {
+        "longitude": -139.4,
+        "latitude": 64.1
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -140.2666666667,
+          60.0
+        ],
+        [
+          -139.4,
+          64.1
+        ],
+        [
+          -151.5,
+          64.1666666667
+        ],
+        [
+          -151.5,
+          60.0
+        ],
+        [
+          -140.2666666667,
+          60.0
+        ]
+      ]
+    ]
+  }
+}

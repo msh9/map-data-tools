@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Memphis",
+    "source_fields": {
+      "SW Corner Northing": "32°00'N",
+      "NW Corner Northing": "36°13'N",
+      "SE Corner Northing": "32°00'N",
+      "NE Corner Northing": "36°12'N",
+      "SW Corner Westing": "95°00'W",
+      "NW Corner Westing": "95°00'W",
+      "SE Corner Westing": "87°59'W",
+      "NE Corner Westing": "87°47'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -95.0,
+        "latitude": 32.0
+      },
+      "NW": {
+        "longitude": -95.0,
+        "latitude": 36.21666666666667
+      },
+      "SE": {
+        "longitude": -87.98333333333333,
+        "latitude": 32.0
+      },
+      "NE": {
+        "longitude": -87.78333333333333,
+        "latitude": 36.2
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -87.9833333333,
+          32.0
+        ],
+        [
+          -87.7833333333,
+          36.2
+        ],
+        [
+          -95.0,
+          36.2166666667
+        ],
+        [
+          -95.0,
+          32.0
+        ],
+        [
+          -87.9833333333,
+          32.0
+        ]
+      ]
+    ]
+  }
+}

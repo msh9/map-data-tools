@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.0",
+  "crs": {
+    "type": "wkt",
+    "value": "PROJCS[\"North_America_Lambert_Conformal_Conic\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"latitude_of_origin\",40],PARAMETER[\"central_meridian\",-96],PARAMETER[\"standard_parallel_1\",20],PARAMETER[\"standard_parallel_2\",60],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"ESRI\",\"102009\"]]"
+  },
+  "tile": {
+    "tileSizePx": 512,
+    "format": "webp",
+    "origin": [
+      -6698991.38,
+      6243265.5
+    ],
+    "resolutions": [
+      2560.0,
+      1280.0,
+      640.0,
+      320.0,
+      160.0,
+      80.0,
+      40.0,
+      20.0
+    ]
+  },
+  "extent": {
+    "crsUnits": [
+      -1099180.1687304873,
+      -117613.14727905014,
+      -479921.3533244406,
+      479021.0030304834
+    ],
+    "wgs84": [
+      -110.5714807277803,
+      38.06379254582281,
+      -101.8744981443757,
+      44.420107607012895
+    ]
+  },
+  "sources": [
+    {
+      "id": "Synthetic Chart A",
+      "name": "Synthetic Chart A",
+      "edition": "Sectional 2025-01-23",
+      "attribution": "FAA",
+      "extent": {
+        "crsUnits": [
+          -1099180.1687304873,
+          59642.26122235797,
+          -694927.337616989,
+          479021.0030304834
+        ],
+        "wgs84": [
+          -110.5714807277803,
+          39.74201222736773,
+          -104.70783032829382,
+          44.23549662073051
+        ]
+      }
+    },
+    {
+      "id": "Synthetic Chart B",
+      "name": "Synthetic Chart B",
+      "edition": "Sectional 2025-01-23",
+      "attribution": "FAA",
+      "extent": {
+        "crsUnits": [
+          -880953.9497145246,
+          -117613.14727905014,
+          -479921.3533244406,
+          291684.48543137923
+        ],
+        "wgs84": [
+          -107.39375542478646,
+          38.3519435157449,
+          -101.8744981443757,
+          42.63141244808131
+        ]
+      }
+    }
+  ]
+}

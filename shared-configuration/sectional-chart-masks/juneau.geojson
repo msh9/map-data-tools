@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Juneau",
+    "source_fields": {
+      "SW Corner Northing": "56°00'N",
+      "NW Corner Northing": "60°10'N",
+      "SE Corner Northing": "56°00'N",
+      "NE Corner Northing": "60°08'N",
+      "SW Corner Westing": "141°00'W",
+      "NW Corner Westing": "141°00'W",
+      "SE Corner Westing": "130°25'W",
+      "NE Corner Westing": "129°44'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -141.0,
+        "latitude": 56.0
+      },
+      "NW": {
+        "longitude": -141.0,
+        "latitude": 60.166666666666664
+      },
+      "SE": {
+        "longitude": -130.41666666666666,
+        "latitude": 56.0
+      },
+      "NE": {
+        "longitude": -129.73333333333332,
+        "latitude": 60.13333333333333
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -130.4166666667,
+          56.0
+        ],
+        [
+          -129.7333333333,
+          60.1333333333
+        ],
+        [
+          -141.0,
+          60.1666666667
+        ],
+        [
+          -141.0,
+          56.0
+        ],
+        [
+          -130.4166666667,
+          56.0
+        ]
+      ]
+    ]
+  }
+}

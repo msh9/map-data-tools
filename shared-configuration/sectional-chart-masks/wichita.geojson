@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Wichita",
+    "source_fields": {
+      "SW Corner Northing": "36°00'N",
+      "NW Corner Northing": "40°13'N",
+      "SE Corner Northing": "36°00'N",
+      "NE Corner Northing": "40°12'N",
+      "SW Corner Westing": "104°00'W",
+      "NW Corner Westing": "104°00'W",
+      "SE Corner Westing": "96°52'W",
+      "NE Corner Westing": "96°39'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -104.0,
+        "latitude": 36.0
+      },
+      "NW": {
+        "longitude": -104.0,
+        "latitude": 40.21666666666667
+      },
+      "SE": {
+        "longitude": -96.86666666666666,
+        "latitude": 36.0
+      },
+      "NE": {
+        "longitude": -96.65,
+        "latitude": 40.2
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -96.8666666667,
+          36.0
+        ],
+        [
+          -96.65,
+          40.2
+        ],
+        [
+          -104.0,
+          40.2166666667
+        ],
+        [
+          -104.0,
+          36.0
+        ],
+        [
+          -96.8666666667,
+          36.0
+        ]
+      ]
+    ]
+  }
+}

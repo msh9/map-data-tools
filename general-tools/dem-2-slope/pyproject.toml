@@ -1,0 +1,31 @@
+[project]
+name = "dem-2-slope"
+version = "0.1.0"
+description = "Convert USGS 3DEP DEM GeoTIFFs to slope-shaded RGBA COGs"
+readme = "README.md"
+authors = [
+    { name = "Michael Hughes", email = "<work@mihughes.com>" },
+]
+requires-python = ">=3.12,<3.15"
+dependencies = ["numpy>=2.0"]
+
+[project.scripts]
+dem-2-slope = "dem_2_slope.cli:cli"
+
+[tool.poetry]
+packages = [{ include = "dem_2_slope", from = "src" }]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0.0"
+ruff = "^0.15.0"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"

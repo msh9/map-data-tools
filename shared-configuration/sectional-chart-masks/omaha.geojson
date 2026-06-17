@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Omaha",
+    "source_fields": {
+      "SW Corner Northing": "40°00'N",
+      "NW Corner Northing": "44°31'N",
+      "SE Corner Northing": "40°00'N",
+      "NE Corner Northing": "44°30'N",
+      "SW Corner Westing": "101°00'W",
+      "NW Corner Westing": "101°00'W",
+      "SE Corner Westing": "92°57'W",
+      "NE Corner Westing": "92°39'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -101.0,
+        "latitude": 40.0
+      },
+      "NW": {
+        "longitude": -101.0,
+        "latitude": 44.516666666666666
+      },
+      "SE": {
+        "longitude": -92.95,
+        "latitude": 40.0
+      },
+      "NE": {
+        "longitude": -92.65,
+        "latitude": 44.5
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -92.95,
+          40.0
+        ],
+        [
+          -92.65,
+          44.5
+        ],
+        [
+          -101.0,
+          44.5166666667
+        ],
+        [
+          -101.0,
+          40.0
+        ],
+        [
+          -92.95,
+          40.0
+        ]
+      ]
+    ]
+  }
+}

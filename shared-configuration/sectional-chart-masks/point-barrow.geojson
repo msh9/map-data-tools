@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Point Barrow",
+    "source_fields": {
+      "SW Corner Northing": "68°00'N",
+      "NW Corner Northing": "72°10'N",
+      "SE Corner Northing": "68°00'N",
+      "NE Corner Northing": "72°05'N",
+      "SW Corner Westing": "157°00'W",
+      "NW Corner Westing": "157°00'W",
+      "SE Corner Westing": "140°55'W",
+      "NE Corner Westing": "139°10'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -157.0,
+        "latitude": 68.0
+      },
+      "NW": {
+        "longitude": -157.0,
+        "latitude": 72.16666666666667
+      },
+      "SE": {
+        "longitude": -140.91666666666666,
+        "latitude": 68.0
+      },
+      "NE": {
+        "longitude": -139.16666666666666,
+        "latitude": 72.08333333333333
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -140.9166666667,
+          68.0
+        ],
+        [
+          -139.1666666667,
+          72.0833333333
+        ],
+        [
+          -157.0,
+          72.1666666667
+        ],
+        [
+          -157.0,
+          68.0
+        ],
+        [
+          -140.9166666667,
+          68.0
+        ]
+      ]
+    ]
+  }
+}

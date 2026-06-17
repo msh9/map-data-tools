@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Lake Huron",
+    "source_fields": {
+      "SW Corner Northing": "44°00'N",
+      "NW Corner Northing": "48°13'N",
+      "SE Corner Northing": "44°00'N",
+      "NE Corner Northing": "48°12'N",
+      "SW Corner Westing": "85°00'W",
+      "NW Corner Westing": "85°00'W",
+      "SE Corner Westing": "76°41'W",
+      "NE Corner Westing": "76°21'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -85.0,
+        "latitude": 44.0
+      },
+      "NW": {
+        "longitude": -85.0,
+        "latitude": 48.21666666666667
+      },
+      "SE": {
+        "longitude": -76.68333333333334,
+        "latitude": 44.0
+      },
+      "NE": {
+        "longitude": -76.35,
+        "latitude": 48.2
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -76.6833333333,
+          44.0
+        ],
+        [
+          -76.35,
+          48.2
+        ],
+        [
+          -85.0,
+          48.2166666667
+        ],
+        [
+          -85.0,
+          44.0
+        ],
+        [
+          -76.6833333333,
+          44.0
+        ]
+      ]
+    ]
+  }
+}

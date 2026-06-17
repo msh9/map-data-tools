@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Green Bay",
+    "source_fields": {
+      "SW Corner Northing": "44°00'N",
+      "NW Corner Northing": "48°20'N",
+      "SE Corner Northing": "44°00'N",
+      "NE Corner Northing": "48°18'N",
+      "SW Corner Westing": "93°00'W",
+      "NW Corner Westing": "93°00'W",
+      "SE Corner Westing": "84°41'W",
+      "NE Corner Westing": "84°21'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -93.0,
+        "latitude": 44.0
+      },
+      "NW": {
+        "longitude": -93.0,
+        "latitude": 48.333333333333336
+      },
+      "SE": {
+        "longitude": -84.68333333333334,
+        "latitude": 44.0
+      },
+      "NE": {
+        "longitude": -84.35,
+        "latitude": 48.3
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -84.6833333333,
+          44.0
+        ],
+        [
+          -84.35,
+          48.3
+        ],
+        [
+          -93.0,
+          48.3333333333
+        ],
+        [
+          -93.0,
+          44.0
+        ],
+        [
+          -84.6833333333,
+          44.0
+        ]
+      ]
+    ]
+  }
+}

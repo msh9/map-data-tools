@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Salt Lake City",
+    "source_fields": {
+      "SW Corner Northing": "40°00'N",
+      "NW Corner Northing": "44°31'N",
+      "SE Corner Northing": "40°00'N",
+      "NE Corner Northing": "44°30'N",
+      "SW Corner Westing": "117°00'W",
+      "NW Corner Westing": "117°00'W",
+      "SE Corner Westing": "108°57'W",
+      "NE Corner Westing": "108°39'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -117.0,
+        "latitude": 40.0
+      },
+      "NW": {
+        "longitude": -117.0,
+        "latitude": 44.516666666666666
+      },
+      "SE": {
+        "longitude": -108.95,
+        "latitude": 40.0
+      },
+      "NE": {
+        "longitude": -108.65,
+        "latitude": 44.5
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -108.95,
+          40.0
+        ],
+        [
+          -108.65,
+          44.5
+        ],
+        [
+          -117.0,
+          44.5166666667
+        ],
+        [
+          -117.0,
+          40.0
+        ],
+        [
+          -108.95,
+          40.0
+        ]
+      ]
+    ]
+  }
+}

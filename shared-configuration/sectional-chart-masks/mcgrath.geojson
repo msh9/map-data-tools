@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "McGrath",
+    "source_fields": {
+      "SW Corner Northing": "60°00'N",
+      "NW Corner Northing": "64°10'N",
+      "SE Corner Northing": "60°00'N",
+      "NE Corner Northing": "64°06'N",
+      "SW Corner Westing": "162°00'W",
+      "NW Corner Westing": "162°00'W",
+      "SE Corner Westing": "150°46'W",
+      "NE Corner Westing": "149°55'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -162.0,
+        "latitude": 60.0
+      },
+      "NW": {
+        "longitude": -162.0,
+        "latitude": 64.16666666666667
+      },
+      "SE": {
+        "longitude": -150.76666666666668,
+        "latitude": 60.0
+      },
+      "NE": {
+        "longitude": -149.91666666666666,
+        "latitude": 64.1
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -150.7666666667,
+          60.0
+        ],
+        [
+          -149.9166666667,
+          64.1
+        ],
+        [
+          -162.0,
+          64.1666666667
+        ],
+        [
+          -162.0,
+          60.0
+        ],
+        [
+          -150.7666666667,
+          60.0
+        ]
+      ]
+    ]
+  }
+}

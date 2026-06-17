@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "properties": {
+    "chart": "Nome",
+    "source_fields": {
+      "SW Corner Northing": "64°00'N",
+      "NW Corner Northing": "68°10'N",
+      "SE Corner Northing": "64°00'N",
+      "NE Corner Northing": "68°06'N",
+      "SW Corner Westing": "171°30'W",
+      "NW Corner Westing": "171°30'W",
+      "SE Corner Westing": "157°55'W",
+      "NE Corner Westing": "156°40'W"
+    },
+    "corner_decimal_degrees": {
+      "SW": {
+        "longitude": -171.5,
+        "latitude": 64.0
+      },
+      "NW": {
+        "longitude": -171.5,
+        "latitude": 68.16666666666667
+      },
+      "SE": {
+        "longitude": -157.91666666666666,
+        "latitude": 64.0
+      },
+      "NE": {
+        "longitude": -156.66666666666666,
+        "latitude": 68.1
+      }
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -157.9166666667,
+          64.0
+        ],
+        [
+          -156.6666666667,
+          68.1
+        ],
+        [
+          -171.5,
+          68.1666666667
+        ],
+        [
+          -171.5,
+          64.0
+        ],
+        [
+          -157.9166666667,
+          64.0
+        ]
+      ]
+    ]
+  }
+}
